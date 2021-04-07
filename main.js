@@ -23,7 +23,7 @@ const SubZero = {
 // Task #1,2,3
 
 
-function (playerClassName, playerID) {
+function createPlayer (playerClassName, playerID) {
     const $player = document.createElement("div");
 
     $player.className = playerClassName;
